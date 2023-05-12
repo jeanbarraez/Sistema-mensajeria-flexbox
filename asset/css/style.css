@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Bad+Script&family=Courgette&family=Dancing+Script:wght@500&family=Pacifico&family=Raleway:ital,wght@0,100;0,300;0,500;1,300;1,500&family=Roboto:wght@300;400;500&family=Solitreo&family=Unbounded&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.padre-flexible {
+  display: flex;
+}
+
+aside {
+  width: 25%;
+
+  border-right: 1px solid #b7b8b8;
+}
+
+.chate img {
+  border-radius: 50%;
+  height: 3rem;
+  border: 1px solid;
+}
+
+.chate {
+  display: flex;
+}
+
+.chateo img {
+  border-radius: 50%;
+  height: 3rem;
+  border: 1px solid;
+}
+
+.maria {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 1.25rem 0.7rem 1.6rem;
+}
+
+.chateo {
+  display: flex;
+  padding-left: 1.5rem;
+  border-bottom: #add3d3 solid 1px;
+  padding: 1rem;
+}
+
+.chateo:hover {
+  background-color: #43463d;
+  color: white;
+  cursor: pointer;
+}
+
+.maria {
+  border-bottom: #b7b8b8 solid 1px;
+}
+
+.nombre {
+  font-size: 1rem;
+  font-weight: 400;
+ 
+}
+
+.mensaje {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #b7b8b8;
+}
+
+.iconos {
+  color: #bec1bb;
+}
+
+.fa-regular {
+  padding: 0.7rem;
+}
+
+button {
+  color: #d6b9d6;
+  border: none;
+  padding: 0.9rem 1.2rem;
+  font-size: 1rem;
+  width: 12rem;
+}
+
+button:hover {
+  background-color: #43463d;
+  color: white;
+  cursor: pointer;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  border-bottom: #b7b8b8 solid 1px;
+  
+}
+
+.textos {
+  margin-left: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #eff1ed;
+  margin: 0;
+}
+
+main img {
+  width: 20rem;
+}
+
+main h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+main h2 {
+  font-size: 1rem;
+  font-weight: 200;
+}
